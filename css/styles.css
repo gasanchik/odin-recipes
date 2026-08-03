@@ -1,3 +1,9 @@
+@font-face {
+    font-family: goorm;
+    src: url(goorm-sans-code.woff2);
+}
+
+
 html {
     background-color: black;
 }
@@ -5,5 +11,5 @@ html {
 * {
     text-align: center;
     color: white;
-
+    font-family: goorm, monospace;
 }
