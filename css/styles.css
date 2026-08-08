@@ -1,15 +1,22 @@
 @font-face {
-    font-family: goorm;
-    src: url(goorm-sans-code.woff2);
+  font-family: goorm;
+  src: url(goorm-sans-code.woff2);
 }
 
 
 html {
-    background-color: black;
+  background-color: black;
 }
 
 * {
-    text-align: center;
-    color: white;
-    font-family: goorm, monospace;
+  color: white;
+  font-family: goorm, monospace;
+  box-sizing: border-box;
+}
+
+.content-container {
+  width: 800px;
+  border: 2px solid white;
+  padding: 25px;
+  margin: 50px auto;
 }
